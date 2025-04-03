@@ -33,5 +33,23 @@ let stringNumber = String(someNumber)
 console.log(stringNumber);  //23
 console.log(typeof stringNumber);  //string
 
+//***************************OPERATIONS*************************************
+
+console.log(2 ** 3)  //8
+console.log("1" + 2)  //12
+console.log(1 + "2");  //12
+console.log("1" + 2 + 2);  //122
+console.log(1 + 2 + "2");  //32
+
+console.log(true);  //true
+console.log(+true); //1
+// console.log(true+); //Error
+console.log(+"");  //0
+
+
+
+
+
+
 
 
